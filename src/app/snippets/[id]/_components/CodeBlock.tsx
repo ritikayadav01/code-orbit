@@ -1,5 +1,4 @@
 import { useState } from "react";
-import CopyButton from "./CopyButton";
 
 const CodeBlock = ({ language, code }: { language: string; code: string }) => {
   const [copied, setCopied] = useState(false);

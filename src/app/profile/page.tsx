@@ -6,13 +6,11 @@ import { useState, useEffect } from "react";
 import { api } from "../../../convex/_generated/api";
 import ProfileHeader from "./_components/ProfileHeader";
 import ProfileHeaderSkeleton from "./_components/ProfileHeaderSkeleton";
-import { ChevronRight, Clock, Code, ListVideo, Loader2, Star } from "lucide-react";
+import { ChevronRight,  ListVideo, Loader2, Star } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 import CodeBlock from "./_components/CodeBlock";
 import NavigationHeader from "../components/NavigationHeader";
-import StarButton from "../components/StarButton";
 
 const TABS = [
   {
